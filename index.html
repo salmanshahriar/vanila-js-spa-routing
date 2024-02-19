@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Title</title>
+  <meta name="description" content="Description of your website">
+  <link rel="stylesheet" href="./app/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="root">
+    <div id="main">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+          <box-icon name='menu' color='#ffffff'></box-icon>
+        </button>
+        <div>
+          <h1 class="navbar-title">Logo</h1>
+        </div>
+        <div class="navbar-menu">
+          <a class="active" href="/">Home</a>
+          <a href="/arena">Arena</a>
+          <a href="/posts">Posts</a>
+          <a href="/notices">Notices</a>
+          <a href="/zone">Zone</a>
+          <a href="/acknowledgement">Acknowledgement</a>
+        </div>
+        <div class="navbar-user">
+          <div class="login-btn" onclick="toggleModal()">Login</div>
+          <div class="modal-background" onclick="toggleModal()"></div>
+          <div class="modal">
+            <div class="slider"></div>
+            <div class="btn">
+                <button class="login activeBtn">Login</button>
+                <button class="signup">Signup</button>
+            </div>
+            <div class="form-section">
+                <!-- login form -->
+                <div class="login-box">
+                    <input type="username"
+                           class="name ele"
+                           placeholder="username">
+                    <input type="password"
+                           class="password ele"
+                           placeholder="password">
+                    <button class="clkbtn">Login</button>
+                </div>
+                <!-- signup form -->
+                <div class="signup-box">
+                    <input type="text"
+                           class="name ele"
+                           placeholder="Enter your Full name">
+                    <input type="username"
+                           class="name ele"
+                           placeholder="username">
+                    <input type="number"
+                           class="number ele"
+                           placeholder="Registration number">
+                    <input type="number"
+                           class="text ele"
+                           placeholder="Phone number">
+                    <input type="password"
+                           class="password ele"
+                           placeholder="password">
+                    <button class="clkbtn">Signup</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="content"></div>
+    </div>
+  </div>
+  <script src="/app/url-router.js"></script>
+  <script src="/app/main.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
