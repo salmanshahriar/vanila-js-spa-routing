@@ -176,6 +176,9 @@ body.menu-open .navbar-menu {
   background-color: transparent;
   position: relative;
   cursor: pointer;
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
 }
 
 .activeBtn{
@@ -279,6 +282,7 @@ body.menu-open .navbar-menu {
   visibility: hidden;
   background: rgba(0, 0, 0, 0.837);
   transition: 0.5s;
+  z-index: 9;
 }
 
 body.open .modal-background {
@@ -311,6 +315,7 @@ body.open .modal-background {
   width: 500px;
   background-color: #3b3d43;
   overflow: hidden;
+  z-index: 10;
 }
 
 body.open .modal {
@@ -343,6 +348,9 @@ body.closed .modal {
   .login,
   .signup {
       font-size: 19px;
+      height: 50px;
+      width: 100px;
+      border-radius: 50px;
   }
 
   .slider {
@@ -406,6 +414,9 @@ body.closed .modal {
   .login,
   .signup {
       font-size: 19px;
+      height: 50px;
+      width: 100px;
+      height: 50px;
   }
 
   .slider {
