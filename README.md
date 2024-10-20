@@ -5,8 +5,8 @@ A lightweight Single Page Application (SPA) built entirely using Vanilla JavaScr
 ## Features
 
 - **Custom Routing**: Built-in routing system using JavaScript to handle different views based on URL changes, inspired by React Router and Next.js routing mechanisms.
-- **Fully Vanilla JavaScript Approach**: Developed without using any frameworks like React.js or Next.js, maintaining simplicity and complete control over routing.
 - **Single Page Application (SPA)**: Achieves dynamic content updates without page reloads, ensuring a fast and seamless experience.
+- **Fully Vanilla JavaScript Approach**: Developed without using any frameworks like React.js or Next.js, maintaining simplicity and complete control over routing.
 - **No External Libraries or Frameworks**: Designed without using any frameworks like React.js, Next.js, or external routing libraries.
   
 ## Technologies Used
